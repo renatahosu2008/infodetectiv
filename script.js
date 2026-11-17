@@ -155,5 +155,31 @@ function afiseazaRezultatFinal() {
 
   butonContinua.hidden = true;
   butonStart.textContent = "Joacă din nou";
+
+
+
+  const butonIndiciu = document.getElementById("indiciu");
+const zonaIndiciu = document.getElementById("zona-indiciu");
+
+butonIndiciu.addEventListener("click", afiseazaIndiciu);
+
+function afiseazaIndiciu() {
+  zonaIndiciu.textContent = "💡 Verifică informația din mai multe surse!";
+}
+// La întrebarea 1
+indiciu: "Nu te baza pe o singură sursă de informare.",
+
+// La întrebarea 2
+indiciu: "O informație trebuie să aibă o sursă verificabilă.",
+
+// La întrebarea 3
+indiciu: "Fii atent la titlurile care încearcă să șocheze.",
+
+// La întrebarea 4
+indiciu: "Verifică unde și când a fost realizată fotografia.",
+
+// La întrebarea 5
+indiciu: "Verifică cine a publicat informația și când."
+
   butonStart.hidden = false;
 }
