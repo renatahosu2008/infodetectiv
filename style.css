@@ -109,3 +109,29 @@ footer {
     font-size: 20px;
   }
 }
+
+
+
+#indiciu {
+  background: #DCEBFF;
+  color: #17365D;
+  border: 2px solid #2878C8;
+}
+
+#indiciu:hover {
+  background: #B8D7FF;
+}
+
+#zona-indiciu {
+  color: #17365D;
+  background: #FFF4CC;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#zona-indiciu:empty {
+  display: none;
+}
+
